@@ -9,27 +9,36 @@
         <desktop-nav :navList="navList"></desktop-nav>
       </div>
       <div class="social-links between">
-        <a href="mailto:qiushiming1997@gmail.com" target="_blank">
+        <a
+          href="mailto:frankin0329@gmail.com"
+          target="_blank"
+        >
           <i class="icon icon-mail"></i>
         </a>
-        <a href="https://github.com/smileShirmy" target="_blank">
+        <a
+          href="https://github.com/dashingdog"
+          target="_blank"
+        >
           <i class="icon icon-github"></i>
         </a>
-        <a href="https://juejin.im/user/5a37bf31f265da430e4f43eb" target="_blank">
-          <span class="text">掘金</span>
+        <a
+          href="https://www.jianshu.com/u/2298a624633c"
+          target="_blank"
+        >
+          <span class="text">简书</span>
         </a>
       </div>
     </div>
     <div class="footer-copyright">
-      <span class="copyright">© 2019 <span class="logo">Smile</span></span>. All Right Reserved.
-      <div class="record-number">粤ICP备17101737号-1</div>
+      <span class="copyright">© 2019-2020 <span class="logo">dashingdog</span></span>. All Right Reserved.
+      <div class="record-number">粤ICP备18053315号-1</div>
     </div>
   </footer>
 </template>
 
 <script>
-import SwitchTheme from '@/components/base/switch-theme/switch-theme'
-import DesktopNav from '@/components/base/nav/desktop-nav'
+import SwitchTheme from "@/components/base/switch-theme/switch-theme";
+import DesktopNav from "@/components/base/nav/desktop-nav";
 
 export default {
   components: {
@@ -42,8 +51,8 @@ export default {
       type: Array,
       default: () => []
     }
-  },
-}
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -141,7 +150,7 @@ export default {
     margin: 0 auto;
     padding: 25px 30px;
     text-align: center;
-    letter-spacing: .7px;
+    letter-spacing: 0.7px;
     color: var(--font-color-light);
 
     .copyright {
@@ -156,5 +165,5 @@ export default {
 
 .record-number {
   margin-top: 10px;
-};
+}
 </style>
