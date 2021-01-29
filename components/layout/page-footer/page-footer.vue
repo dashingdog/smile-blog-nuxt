@@ -30,8 +30,10 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <span class="copyright">© 2019-2020 <span class="logo">dashingdog</span></span>. All Right Reserved.
-      <div class="record-number">粤ICP备18053315号-1</div>
+      <span class="copyright">© 2019-2021 <span class="logo">dashingdog</span></span>. All Right Reserved.
+      <div class="record-number">
+        <a href='https://beian.miit.gov.cn'>粤ICP备18053315号-1</a>
+      </div>
     </div>
   </footer>
 </template>
